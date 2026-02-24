@@ -80,7 +80,7 @@ const recipeContainer = document.querySelector('#recipe-container');
 // =============================
 // Create Recipe Card Function
 // =============================
-
+  
 const createRecipeCard = (recipe) => {
     return `
         <div class="recipe-card" data-id="${recipe.id}">
